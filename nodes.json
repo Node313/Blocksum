@@ -2,6 +2,7 @@
   "nodes": [
     {
       "name": "Göta Pool",
+      "proxy": "blocksum.org/gota/",
       "url": "gota.kryptokrona.se",
       "port": 11898,
       "ssl": false,
@@ -11,6 +12,7 @@
     },
     {
       "name": "XKR Seed",
+      "proxy": "blocksum.org/seed/",
       "url": "seed.kryptokrona.se",
       "port": 11898,
       "ssl": false,
@@ -20,6 +22,7 @@
     },
     {
       "name": "Wasa",
+      "proxy": "blocksum.org/wasa/",
       "url": "wasa.kryptokrona.se",
       "port": 11898,
       "ssl": false,
@@ -29,6 +32,7 @@
     },
      {
       "name": "Gamersnest",
+      "proxy": "blocksum.org/gamersnest/",
       "url": "pool.gamersnest.org",
       "port": 11898,
       "ssl": false,
@@ -38,6 +42,7 @@
     },
      {
       "name": "Techynode",
+      "proxy": "blocksum.org/techynode/",
       "url": "techynode.ddns.net",
       "port": 11898,
       "ssl": false,
@@ -47,6 +52,7 @@
     },
      {
       "name": "Blocksum",
+      "proxy": "blocksum.org/blocksum/", 
       "url": "blocksum.org",
       "port": 11898,
       "ssl": false,
@@ -56,6 +62,7 @@
     },
     {
       "name": "Doorpi",
+      "proxy": "blocksum.org/doorpi/",
       "url": "doorpi.hopto.org",
       "port": 11898,
       "ssl": false,
