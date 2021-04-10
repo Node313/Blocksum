@@ -4,7 +4,7 @@ async function getNodesData() {
       var tbodyRef = document.getElementById('nodeList').getElementsByTagName('tbody')[0];
       for (let i = 0; i < dataB.nodes.length; i++) {
         fetchWithTimeout(
-          'http://' + dataB.nodes[i].url + ':' + dataB.nodes[i].port + '/getinfo',
+          'https://' + dataB.nodes[i].proxy + '/getinfo',
           { headers: { Accept: 'application/json' } },
           500
         ).then((response) => response.json())
